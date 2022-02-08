@@ -1,4 +1,5 @@
 import 'package:chat_application/views/signin.dart';
+import 'package:chat_application/views/signup.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,7 +12,7 @@ void main() {
       visualDensity: VisualDensity.adaptivePlatformDensity,
     ),
     debugShowCheckedModeBanner: false,
-    home: SignIn(),
+    home: SignUp(),
     ),
   );
 }

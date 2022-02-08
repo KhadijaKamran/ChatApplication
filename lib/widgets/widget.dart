@@ -36,7 +36,7 @@ class mainAppBar extends StatelessWidget implements PreferredSizeWidget {
 // }
 InputDecoration mainInputDecoration(String string){
   return InputDecoration(
-    hintText: 'password',
+    hintText: string,
     hintStyle: TextStyle(
       color: Colors.black,
       letterSpacing: 2.0,
